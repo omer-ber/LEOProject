@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="/routing/results/test_faults/NetK-$method=0, $linksDown=0, $seed=1234-0.sca"/>
+    <inputs name="/routing/results/test_faults/NetK-$method=0, $linksDown=0, $seed=1234-0.vec"/>
+    <inputs name="/routing/results/test_faults/NetK-$method=0, $linksDown=0, $seed=2021-0.sca"/>
+    <inputs name="/routing/results/test_faults/NetK-$method=0, $linksDown=0, $seed=2021-0.vec"/>
+    <inputs name="/routing/results/test_faults/NetK-$method=0, $linksDown=1, $seed=1234-0.sca"/>
+    <inputs name="/routing/results/test_faults/NetK-$method=0, $linksDown=1, $seed=1234-0.vec"/>
+    <inputs name="/routing/results/test_faults/NetK-$method=0, $linksDown=1, $seed=2021-0.sca"/>
+    <inputs name="/routing/results/test_faults/NetK-$method=0, $linksDown=1, $seed=2021-0.vec"/>
+    <inputs name="/routing/results/test_faults/NetK-$method=0, $linksDown=2, $seed=1234-0.sca"/>
+    <inputs name="/routing/results/test_faults/NetK-$method=0, $linksDown=2, $seed=1234-0.vec"/>
+    <inputs name="/routing/results/test_faults/NetK-$method=0, $linksDown=2, $seed=2021-0.sca"/>
+    <inputs name="/routing/results/test_faults/NetK-$method=0, $linksDown=2, $seed=2021-0.vec"/>
+    <inputs name="/routing/results/test_faults/NetK-$method=1, $linksDown=0, $seed=1234-0.sca"/>
+    <inputs name="/routing/results/test_faults/NetK-$method=1, $linksDown=0, $seed=1234-0.vec"/>
+    <inputs name="/routing/results/test_faults/NetK-$method=1, $linksDown=0, $seed=2021-0.sca"/>
+    <inputs name="/routing/results/test_faults/NetK-$method=1, $linksDown=0, $seed=2021-0.vec"/>
+    <inputs name="/routing/results/test_faults/NetK-$method=1, $linksDown=1, $seed=1234-0.sca"/>
+    <inputs name="/routing/results/test_faults/NetK-$method=1, $linksDown=1, $seed=1234-0.vec"/>
+    <inputs name="/routing/results/test_faults/NetK-$method=1, $linksDown=1, $seed=2021-0.sca"/>
+    <inputs name="/routing/results/test_faults/NetK-$method=1, $linksDown=1, $seed=2021-0.vec"/>
+    <inputs name="/routing/results/test_faults/NetK-$method=1, $linksDown=2, $seed=1234-0.sca"/>
+    <inputs name="/routing/results/test_faults/NetK-$method=1, $linksDown=2, $seed=1234-0.vec"/>
+    <inputs name="/routing/results/test_faults/NetK-$method=1, $linksDown=2, $seed=2021-0.sca"/>
+    <inputs name="/routing/results/test_faults/NetK-$method=1, $linksDown=2, $seed=2021-0.vec"/>
+  </inputs>
+  <datasets/>
+  <chartSheets/>
+</scave:Analysis>
