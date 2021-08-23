@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<movements>
+	<movement id="0">
+		<set x="uniform(3600,18900)" y="uniform(3600,18900)" borderPolicy="reflect"/>
+		<repeat>
+			<set speed="uniform(0.5,10)"/>
+			<turn angle="uniform(-30,30)"/>
+			<forward t="uniform(0.1,1)"/>
+		</repeat>
+	</movement>
+	<movement id="1">
+		<set x="uniform(3600,18900)" y="uniform(3600,18900)" borderPolicy="reflect"/>
+		<repeat>
+			<set speed="uniform(0.5,10)"/>
+			<turn angle="uniform(-30,30)"/>
+			<forward t="uniform(0.1,1)"/>
+		</repeat>
+	</movement>
+	<movement id="2">
+		<set x="uniform(3600,18900)" y="uniform(3600,18900)" borderPolicy="reflect"/>
+		<repeat>
+			<set speed="uniform(0.5,10)"/>
+			<turn angle="uniform(-30,30)"/>
+			<forward t="uniform(0.1,1)"/>
+		</repeat>
+	</movement>
+	<movement id="3">
+		<set x="uniform(3600,18900)" y="uniform(3600,18900)" borderPolicy="reflect"/>
+		<repeat>
+			<set speed="uniform(0.5,10)"/>
+			<turn angle="uniform(-30,30)"/>
+			<forward t="uniform(0.1,1)"/>
+		</repeat>
+	</movement>
+	<movement id="4">
+		<set x="uniform(3600,18900)" y="uniform(3600,18900)" borderPolicy="reflect"/>
+		<repeat>
+			<set speed="uniform(0.5,10)"/>
+			<turn angle="uniform(-30,30)"/>
+			<forward t="uniform(0.1,1)"/>
+		</repeat>
+	</movement>
+	<movement id="5">
+		<set x="uniform(3600,18900)" y="uniform(3600,18900)" borderPolicy="reflect"/>
+		<repeat>
+			<set speed="uniform(0.5,10)"/>
+			<turn angle="uniform(-30,30)"/>
+			<forward t="uniform(0.1,1)"/>
+		</repeat>
+	</movement>
+	<movement id="6">
+		<set x="uniform(3600,18900)" y="uniform(3600,18900)" borderPolicy="reflect"/>
+		<repeat>
+			<set speed="uniform(0.5,10)"/>
+			<turn angle="uniform(-30,30)"/>
+			<forward t="uniform(0.1,1)"/>
+		</repeat>
+	</movement>
+	<movement id="7">
+		<set x="uniform(3600,18900)" y="uniform(3600,18900)" borderPolicy="reflect"/>
+		<repeat>
+			<set speed="uniform(0.5,10)"/>
+			<turn angle="uniform(-30,30)"/>
+			<forward t="uniform(0.1,1)"/>
+		</repeat>
+	</movement>
+	<movement id="8">
+		<set x="uniform(3600,18900)" y="uniform(3600,18900)" borderPolicy="reflect"/>
+		<repeat>
+			<set speed="uniform(0.5,10)"/>
+			<turn angle="uniform(-30,30)"/>
+			<forward t="uniform(0.1,1)"/>
+		</repeat>
+	</movement>
+	<movement id="9">
+		<set x="uniform(3600,18900)" y="uniform(3600,18900)" borderPolicy="reflect"/>
+		<repeat>
+			<set speed="uniform(0.5,10)"/>
+			<turn angle="uniform(-30,30)"/>
+			<forward t="uniform(0.1,1)"/>
+		</repeat>
+	</movement>
+</movements>

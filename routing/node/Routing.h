@@ -28,7 +28,7 @@
 #define ALPHA_P 300                 //alpha predict
 #define BETA_P 7000                 //total errors predict
 #define PATTERN_LENGTH 35           //7 seconds. 5 samples per second
-//#define NUMOFNODES 25
+//#define NUMOFNODES 100 //change according to ini num hosts - runover other parameter
 #define LOAD_PREDICTION_INTERVAL 14  //search and predict the load every 5sec
 #define BASELINE_MODE 0
 
@@ -66,7 +66,7 @@ private:
     int NodesInTopo = 0;
     int updateCounter = 0;
     bool fullTopoRun = true;
-    //int num_of_hosts = getParentModule()->par("numofsatellite");
+    //int num_of_hosts = getParentModule()->par("num_of_satellite");
     int num_of_hosts = NUMOFNODES;
 
     int phase1Flag;

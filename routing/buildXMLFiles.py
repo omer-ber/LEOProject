@@ -2,7 +2,7 @@
 from xml.dom import minidom
 import os
 
-speed = 8
+speed = 80
 angle = 90
 
 # Open the file that has grid coordinates

@@ -25,6 +25,7 @@ network NetK
     parameters:
         int num_of_hosts = default(25);
         int num_of_terminals = default(20);
+        int queuesize=default(100);
 		double maxX @unit(m);
         double maxY @unit(m);
         double minX @unit(m);
@@ -41,6 +42,7 @@ network NetK
                 datarate = default(0.5Gbps);
         }
     submodules:
+        
         rte[num_of_hosts]: Node {
             parameters:
                 address = index;
@@ -66,7 +68,7 @@ network NetK
                 @display("bgb=$maxX-$minX,$maxY-$minY;bgi=maps/world,s,bgg=100,2,grey95,bgu=km");
                 //@display("i=device/satellite,white;p=,,m,$colNum,10000,10000"); 	// Matrix form
                 //@display("i=device/satellite,white;p=100,100,ri,1000,1000");	// Ring form
-
+			
         }
         terminal[num_of_terminals]: Terminal {
             parameters:

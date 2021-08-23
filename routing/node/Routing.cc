@@ -766,7 +766,7 @@ void Routing::changeConnectingLink(cTopology::Node* currNode, int otherNodeInd,
 cTopology* Routing::BuildLASTtopo(cTopology* origTopo,int alpha,int m)
 {
    cTopology* MSTTopo = primMST(origTopo, mySatAddress);
-
+ //i changed 0 to 1 and need to change back after taking results photos
    switch (getParentModule()->par("methodToChooseRoots").intValue()){
        case 0:
            // Roots are chosen in random

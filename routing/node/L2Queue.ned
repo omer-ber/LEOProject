@@ -9,6 +9,8 @@
 
 package node;
 
+
+
 //
 // Represents the network interface for a point-to-point connection.
 //
@@ -27,7 +29,7 @@ package node;
 simple L2Queue
 {
     parameters:
-       
+      
         bool useCutThroughSwitching = default(true);  // use cut-through switching instead of store-and-forward
         @display("i=block/queue;q=queue");
         @signal[qlen](type="long");
@@ -47,7 +49,8 @@ simple L2Queue
         
         @statistic[msg_i_created](type="long");
         @statistic[msg_i_recived](type="long");
-        	@signal[load_balance_channel](type="string");
+        @signal[load_balance_channel](type="string");
+    
     gates:
         //from routing to queue(outgoing)
         input in;

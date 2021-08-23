@@ -14,6 +14,7 @@ L2Queue::~L2Queue()
 void L2Queue::finish()
 {
     dropCountStats.recordAs("drop count");
+    //i changed
     //throughput.recordAs("hop count");
 
     // Clear Q, including topology, if exists
@@ -100,8 +101,8 @@ void L2Queue::initialize()
     busySignal = registerSignal("busy");
     queueingTimeSignal = registerSignal("queueingTime");
 
-
-  //  throughput = registerSignal("throughput");
+    //i changed
+    //throughput = registerSignal("throughput");
     dropSignal = registerSignal("drop");
     txBytesSignal = registerSignal("txBytes");
     rxBytesSignal = registerSignal("rxBytes");
@@ -129,7 +130,8 @@ void L2Queue::startTransmitting(cMessage *msg)
   //  simtime_t a =  gate("line$o")->getTransmissionChannel()->getTransmissionFinishTime();
     sent++;
     emit(txBytesSignal, (long)numBytes);
-//    throughput.record((double)sent/recived);
+    //i changed
+    //throughput.record((double)sent/recived);
     //emit(throughput,(double)sent/recived);
        // Schedule an event for the time when last bit will leave the gate.
     simtime_t endTransmission = gate("line$o")->getTransmissionChannel()->getTransmissionFinishTime();
